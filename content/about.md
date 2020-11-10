@@ -1,5 +1,5 @@
 ---
-Title: Om mig
+Title: about
 Description: This is our index page.
 ---
 Jag heter Ida Häyrinen och är en 35-årig tvåbarnsmor som precis
