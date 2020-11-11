@@ -40,10 +40,10 @@
                 </div>
             {% endif %}
             <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
-                <a href="{{ "index"|link }}">
+                <div class = "tagline">
                     <h1>{{ site_title }}</h1>
                     {{ pages["_meta"].meta.tagline|markdown }}
-                </a>
+                </div>
             </div>
             <div class="nav">
                 <div id="nav" role="navigation" tabindex="-1">
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="flash-region">
-              <img class="flash-img" src="{{ base_url }}/image/tree2.jpg?sc=banner1&a=40,0,0,0">
+              <img class="flash-img" src="{{ base_url }}/image/ice.png?sc=banner1&a=40,0,0,0">
             </div>
         </div>
     </div>

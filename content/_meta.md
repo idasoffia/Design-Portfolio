@@ -1,6 +1,6 @@
 ---
-Logo: image/me.jpg
-Tagline: A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.
+Logo: image/design.png
+Tagline: How many roads must a man walk down?
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/idasoffia/Design-Portfolio
