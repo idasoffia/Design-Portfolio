@@ -1,0 +1,15 @@
+@import "../../node_modules/normalize.css/normalize";
+@import "old";
+$base-color: #c6538c; // light pink
+@import '../../shared/scss/base';
+
+
+.idaImg {
+    width:189px;
+    height:286px;
+    float: right;
+    top: 45px;
+    margin-top: 85px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
