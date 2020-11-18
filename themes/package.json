@@ -1,7 +1,6 @@
 {
   "name": "themes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
@@ -14,10 +13,12 @@
   "devDependencies": {
     "normalize.css": "^8.0.1",
     "sass": "^1.29.0",
-    "stylelint": "^13.7.2",
+    "stylelint": "^13.8.0",
     "stylelint-config-sass-guidelines": "^7.1.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }

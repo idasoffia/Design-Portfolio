@@ -1,15 +1,27 @@
 @import "../../node_modules/normalize.css/normalize";
+@import "../../shared/scss/base";
+@import "../../shared/fontawesome/scss/fontawesome";
+$fa-font-path: "../../shared/fontawesome/webfonts";
+@import "../../shared/fontawesome/scss/brands";
+@import "../../shared/fontawesome/scss/solid";
+@import "../../shared/fontawesome/scss/regular";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Open+Sans+Condensed:wght@300&display=swap');
 @import "old";
-$base-color: #c6538c; // light pink
-@import '../../shared/scss/base';
 
+
+* {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
 .idaImg {
-    width:189px;
-    height:286px;
+    width:98px;
+    height:268px;
     float: right;
-    top: 45px;
-    margin-top: 85px;
+    margin-top: 65px;
     padding-left: 15px;
     padding-bottom: 10px;
 }
